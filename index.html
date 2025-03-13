@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delta Airlines Flight Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.jpeg" alt="Flight Tracker Logo">
+    </div>
+  </header>
+
+  <main>
+    <!-- Input and Output Container -->
+    <section class="input-output-container">
+      <div class="input-output-content">
+        <h1>Track Your Flight</h1>
+        <p>Enter your flight tracking number below to get real-time updates on your flight's status, location, departure, and arrival times.</p>
+        <form id="tracking-form">
+          <input type="text" id="tracking-number" placeholder="Enter Flight Code (e.g., AA123)" required>
+          <button type="submit">Track Flight</button>
+        </form>
+        <div class="flight-details" id="flight-details">
+          <!-- Flight details will be dynamically inserted here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Image and About Container -->
+    <section class="image-about-container">
+      <div class="hero-image">
+        <img src="flights.webp" alt="Flight Image">
+      </div>
+      <div class="about">
+        <h2>About Delta Airlines </h2>
+        <p>Delta Airline  allows you to track any flight in real-time. Simply enter the flight code, and you'll get all the necessary details, including the current location, departure time, arrival time, and more.</p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <h2>Features</h2>
+      <div class="feature-cards">
+        <div class="card">
+          <h3>Real-Time Tracking</h3>
+          <p>Get live updates on your flight's status and location.</p>
+        </div>
+        <div class="card">
+          <h3>Flight Details</h3>
+          <p>View departure, arrival, and other essential flight information.</p>
+        </div>
+        <div class="card">
+          <h3>Responsive Design</h3>
+          <p>Access the website on any device, from desktops to mobile phones.</p>
+        </div>
+        <div class="card">
+          <h3>User-Friendly</h3>
+          <p>Easy-to-use interface for a seamless experience.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Delta Airlines Flight Tracker. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
